@@ -35,7 +35,7 @@ def createTrackerByName(trackerType):
 
 
 # Set video to load
-videoPath = "/Users/yusei.yagi/lab/datasets/pedestrians.mp4"
+videoPath = "../sample_data/pedestrians.mp4"
 
 # Create a video capture object to read videos
 cap = cv2.VideoCapture(videoPath)
